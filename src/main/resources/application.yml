@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://152.136.252.57:3306/mydb?characterEncoding=UTF-8
+    username: mydb
+    password: mydb
+  mail:
+    host: smtp.qq.com
+    username: 2494091497@qq.com
+    password: qblfldvnicuiebcd
+    default-encoding: utf-8
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl
+    map-underscore-to-camel-case: false #关闭驼峰转换
+server:
+  port: 443
+
+file:
+  uploadurl: "/upload/file/"
+  localurl: "D:/upload/resource/file/"
